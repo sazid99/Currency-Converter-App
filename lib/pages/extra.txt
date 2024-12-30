@@ -1,0 +1,14 @@
+TextField(
+decoration: const InputDecoration(
+
+helperText: "From",
+helperStyle: TextStyle(color: Colors.white),
+hintText: "Enter amount",
+hintStyle: TextStyle(color: Colors.white),
+filled: true,
+fillColor: Colors.black54,
+border: OutlineInputBorder(
+borderRadius: BorderRadius.all(Radius.circular(10.0)),
+),
+),
+),
