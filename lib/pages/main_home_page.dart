@@ -59,6 +59,9 @@ class _MainHomePageState extends State<MainHomePage> {
                         controller: textEditingController,
                         style: TextStyle(color: Colors.white, fontSize: 20),
                         keyboardType: TextInputType.number,
+                        onTapOutside: (event) {
+                          FocusManager.instance.primaryFocus?.unfocus();
+                        },
                         decoration: const InputDecoration(
                           hintText: "Enter amount",
                           hintStyle: TextStyle(color: Colors.white),
